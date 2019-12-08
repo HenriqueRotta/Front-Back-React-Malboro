@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "name": "Henrique",
+      "email": "henrique-rotta@hotmail.com",
+      "age": "24",
+      "city": "Ribeirão Preto",
+      "id": 1
+    }
+  ]
+}

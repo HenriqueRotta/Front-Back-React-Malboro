@@ -1,0 +1,42 @@
+aside.menu-area{
+    background-color: #B22222;/*var(--bg-dark);*/
+    box-shadow: var(--shaowMenu);
+    height: 100%;
+    
+    
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 300;
+    padding: 30px;
+}
+
+.menu a:hover{
+    background: linear-gradient(135deg, red 0%, #FFF 100% );
+}
+/***************** ARRUMAR MELHOR A RESPONSIVIDADE ********************/
+
+@media(max-width: 768px){      
+
+    .menu{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+        
+    }
+
+    .menu a{
+        display: inline;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .menu{
+        height: 100%;
+        justify-content: space-around;
+    }
+}
